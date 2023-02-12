@@ -84,7 +84,7 @@ const FundRiserCard = ({props,pushWithdrawRequests}) => {
     <p className="font-sans text-sm text-stone-800 tracking-tight">{props.description}</p>
     <br>
     </br>
-    <Link href={`/project-details/${props.address}`} >
+    <Link href={`/project-details/${props.address}`} passHref>
                <button className="p-2 w-full bg-[#6db8f5] text-white rounded-md hover:bg-[#5694d1]">
                 Go to Funding Details
                </button>

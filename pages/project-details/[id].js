@@ -35,7 +35,7 @@ const ProjectDetails = () => {
       }
       getAllWithdrawRequest(web3,id,loadWithdrawRequests)
     }
-  }, [id])
+  }, [id, web3])
   
   const pushWithdrawRequests = (data) =>{
     if(withdrawReq){
