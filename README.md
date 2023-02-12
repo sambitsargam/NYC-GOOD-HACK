@@ -1,5 +1,5 @@
 # Crowfunding-dapp
-A Fundraising Next app on Metis Testnet
+A Fundraising Next app on Mantle Testnet
 ## WHAT YOU CAN DO ?
 
 * YOU CAN RAISE A FUNDING
