@@ -23,22 +23,22 @@ const Navbar = () => {
                 aria-controls="mobile-menu"
                 aria-expanded="false"
                 onClick={() => setOpenMenu(!openMenu)}>
-                {openMenu ? <Clear className="" /> : <Menu />}
+                {openMenu ? <Clear /> : <Menu />}
               </button>
             </div>
             <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
               <div className="flex-shrink-0 flex items-center">
                 <h4 className="font-mono text-xl text-gray font-bold hidden lg:block">
                   MANTLE
-                  <span class="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-pink-500 relative inline-block m-2">
-                    <span class="relative text-white">CROWD</span>
+                  <span className="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-pink-500 relative inline-block m-2">
+                    <span className="relative text-white">CROWD</span>
                   </span>
                   FUNDING
                 </h4>
               </div>
               <div className="hidden font-sans sm:block sm:ml-6">
                 <div className="flex space-x-4">
-                  <Link href="/dashboard">
+                  <Link href="/dashboard" passHref>
                     <span
                       className={`${
                         router.pathname === '/dashboard' ? 'bg-ccdacColor' : ''
@@ -46,7 +46,7 @@ const Navbar = () => {
                       Dashboard
                     </span>
                   </Link>
-                  <Link href="/my-contributions">
+                  <Link href="/my-contributions" passHref>
                     <span
                       className={`${
                         router.pathname === '/my-contributions'
@@ -89,7 +89,7 @@ const Navbar = () => {
           className={`sm:hidden ${!openMenu ? 'hidden' : ''}`}
           id="mobile-menu">
           <div className="px-2 pt-2 pb-3 space-y-1">
-            <Link href="/dashboard">
+            <Link href="/dashboard" passHref>
               <span
                 className={`${
                   router.pathname === '/dashboard' ? 'bg-ccdacColor' : ''
@@ -98,7 +98,7 @@ const Navbar = () => {
               </span>
             </Link>
 
-            <Link href="/my-contributions">
+            <Link href="/my-contributions" passHref>
               <span
                 className={`${
                   router.pathname === '/my-contributions' ? 'bg-ccdacColor' : ''
