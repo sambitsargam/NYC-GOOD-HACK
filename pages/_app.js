@@ -16,7 +16,7 @@ function MyApp({ Component, pageProps }) {
 
   useEffect(() => {
     loadBlockchain()
-  }, [])
+  }, )
   
 
   const loadBlockchain = async() =>{

@@ -27,7 +27,7 @@ export default function Home() {
         }
       }
      })()
-  }, [web3])
+  }, [dispatch, router, web3])
   
 
   return (
