@@ -87,7 +87,7 @@ const ProjectDetails = () => {
                     </div>
                     <div className='lg:w-4/5'>
                         <p className='text-md font-bold text-gray-800 w-40 truncate '>{data.contributor}</p>
-                        <p className='text-sm font-bold text-gray-500'>{data.amount} BIT</p>
+                        <p className='text-sm font-bold text-gray-500'>{data.amount} CELO</p>
                     </div>
                 </div>
               ))

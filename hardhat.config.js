@@ -17,8 +17,8 @@ module.exports = {
       chainId: 31337
 
     },
-    mantle : {
-       url: `https://rpc.testnet.mantle.xyz/`,
+    celo : {
+       url: `https://alfajores-forno.celo-testnet.org	`,
        accounts: [process.env.PRIVATE_KEY],
      }
   },

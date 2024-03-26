@@ -10,7 +10,7 @@ import {
 } from '../helper/helper';
 
 const crowdFundingContractAddress =
-  '0x9E6Fac91D2C7627FC473aE57bF82067FC4a4304e';
+  '0x3F5e7eB640A0958fFd1e3D237b13bDa902CFa9d3';
 
 //Load web3
 export const loadWeb3 = async (dispatch) => {

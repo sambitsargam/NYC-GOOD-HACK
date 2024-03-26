@@ -84,7 +84,7 @@ const WithdrawRequestCard = ({
             Requested amount
           </p>
           <p className="text-sm font-bold font-sans text-gray-600 ">
-            {props.amount} BIT{' '}
+            {props.amount} CELO{' '}
           </p>
           <p className="text-md font-bold font-sans text-gray">Total vote</p>
           <p className="text-sm font-bold font-sans text-gray-600 ">

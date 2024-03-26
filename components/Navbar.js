@@ -29,7 +29,7 @@ const Navbar = () => {
             <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
               <div className="flex-shrink-0 flex items-center">
                 <h4 className="font-mono text-xl text-gray font-bold hidden lg:block">
-                  MANTLE
+                  Celo
                   <span className="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-pink-500 relative inline-block m-2">
                     <span className="relative text-white">CROWD</span>
                   </span>

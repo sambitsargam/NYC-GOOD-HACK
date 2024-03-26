@@ -33,7 +33,7 @@ export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center my-40">
     <button className="p-4 my-10 text-lg font-bold text-white rounded-md w-56 bg-[#8D8DAA] drop-shadow-md hover:bg-[#b1b1d6] hover:drop-shadow-xl" onClick={()=>connect()}>Connect to MetaMask</button>
-    <p className="text-lg font-bold text-gray-500">Connect to MetaMask with Mantle Testnet </p>
+    <p className="text-lg font-bold text-gray-500">Connect to MetaMask with Celo Testnet </p>
     {/* {active ? <span>Connected with <b>{account}</b></span> : <span>Not connected</span>} */}
 
   </div>

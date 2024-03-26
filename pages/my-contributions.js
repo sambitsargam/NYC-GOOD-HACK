@@ -34,7 +34,7 @@ const MyContributions = () => {
                         </div>
                         <div className='lg:w-4/5'>
                             <Link href={`/project-details/${data.projectAddress}`} passHref><p className='text-md font-bold text-gray-800 w-40 truncate cursor-pointer '>{data.projectAddress}</p></Link>
-                            <p className='text-sm font-bold text-gray-500'>{data.amount} BIT</p>
+                            <p className='text-sm font-bold text-gray-500'>{data.amount} CELO</p>
                         </div>
                     </div>
                 ))
